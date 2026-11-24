@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seminar Teknologi dan Inovasi Digital 2026</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Seminar Nasional Teknologi dan Inovasi Digital 2026</h1>
+      <p>Membangun Generasi Muda yang Kreatif dan Inovatif di Era Digital</p>
+
+      <nav>
+        <a href="#tentang">Tentang</a>
+        <a href="#rundown">Rundown</a>
+        <a href="#daftar">Pendaftaran</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <!-- TENTANG KEGIATAN -->
+    <section id="tentang">
+
+      <img src="images/kegiatan.png"
+           alt="Suasana seminar teknologi di aula kampus">
+
+      <div class="deskripsi">
+        <h2>Tentang Kegiatan</h2>
+
+        <p>
+          Seminar Nasional Teknologi dan Inovasi Digital 2026
+          merupakan kegiatan yang bertujuan meningkatkan
+          pengetahuan mahasiswa mengenai perkembangan
+          teknologi digital.
+        </p>
+
+        <p>
+          Melalui kegiatan ini, peserta diharapkan mampu
+          mengembangkan kreativitas, menambah wawasan,
+          dan memahami peluang teknologi di masa depan.
+        </p>
+
+        <a href="https://developer.mozilla.org/"
+           target="_blank"
+           rel="noreferrer">
+          Pelajari Teknologi Web
+        </a>
+      </div>
+
+    </section>
+
+    <!-- RUNDOWN -->
+    <section id="rundown">
+
+      <div class="card">
+        <h2>Syarat Peserta</h2>
+
+        <ul>
+          <li>Mahasiswa aktif.</li>
+          <li>Mengisi formulir pendaftaran.</li>
+          <li>Mengikuti kegiatan sampai selesai.</li>
+          <li>Mematuhi peraturan panitia.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Alur Pendaftaran</h2>
+
+        <ol>
+          <li>Mengisi data diri.</li>
+          <li>Melakukan verifikasi.</li>
+          <li>Memeriksa data pendaftaran.</li>
+          <li>Mengirim formulir.</li>
+        </ol>
+      </div>
+
+    </section>
+
+    <!-- FORMULIR PENDAFTARAN -->
+    <section id="daftar">
+
+      <h2>Formulir Pendaftaran</h2>
+      <p>Silakan isi data diri untuk mengikuti kegiatan.</p>
+
+      <form action="#" method="post">
+
+        <div class="form-row">
+
+          <div class="form-group">
+            <label for="nama">Nama Lengkap</label>
+            <input type="text" id="nama"
+                   name="nama"
+                   placeholder="Masukkan nama lengkap"
+                   required>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Alamat Email</label>
+            <input type="email" id="email"
+                   name="email"
+                   placeholder="Masukkan email"
+                   required>
+          </div>
+
+          <div class="form-group">
+            <label for="tanggal">Tanggal Lahir</label>
+            <input type="date" id="tanggal"
+                   name="tanggal">
+          </div>
+
+          <div class="form-group">
+            <label for="divisi">Pilihan Divisi</label>
+
+            <select id="divisi" name="divisi">
+              <option value="">Pilih Divisi</option>
+              <option value="acara">Acara</option>
+              <option value="pdd">PDD</option>
+              <option value="humas">Humas</option>
+              <option value="perlengkapan">Perlengkapan</option>
+            </select>
+          </div>
+
+        </div>
+
+        <div class="persetujuan">
+          <input type="checkbox" id="setuju"
+                 name="persetujuan" required>
+
+          <label for="setuju">
+            Saya menyetujui ketentuan pendaftaran.
+          </label>
+        </div>
+
+        <button type="submit">Kirim Pendaftaran</button>
+
+      </form>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>
+      &copy; 2026 Seminar Teknologi dan Inovasi Digital.
+      Informasi Panitia Kegiatan.
+    </p>
+  </footer>
+
+</body>
+</html>
